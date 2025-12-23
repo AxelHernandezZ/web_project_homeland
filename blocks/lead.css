@@ -3,16 +3,20 @@
   }
 
   .lead__content {
-    width: 984px;
-    height: 983px;
+    width: 100%;
+    max-width: 984px;
+    height: auto;
+    max-height: 983px;
 
     display: block;
     margin: 91px auto 0;
   }
 
   .lead__title {
-    width: 720px;
-    height: 200px;
+    width: 100%;
+    max-width: 720px;
+    height: auto;
+    max-height: 200px;
 
     opacity: 1;
 
@@ -30,8 +34,10 @@
   }
 
   .lead__subtitle {
-    width: 720px;
-    height: 72px;
+    width: 100%;
+    max-width: 720px;
+    height: auto;
+    max-height: 72px;
 
     display: block;
     margin: 32px auto 0;
@@ -49,8 +55,10 @@
   }
 
   .lead__image {
-    width: 984px;
-    height: 615px;
+    width: 100%;
+    max-width: 984px;
+    height: auto;
+    max-height: 615px;
 
     display: block;
     margin: 64px auto 0; /* reemplaza top:64px */

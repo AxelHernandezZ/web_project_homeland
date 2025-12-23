@@ -3,11 +3,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 100vh; /* asegurar que cubra al menos la ventana */
+  min-height: 100vh;
   width: 100%;
 }
 
-/* caja sensible que evita problemas de cálculo de ancho en móviles */
+/* caja sensible que evita problemas de cálculo de ancho en móviles*/
 *,
 *::before,
 *::after {
