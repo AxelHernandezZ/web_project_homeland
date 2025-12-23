@@ -1,7 +1,35 @@
-.header {
-  display: block;
+@media screen and (min-width: 1280px) {
+  .header {
+    display: block;
+  }
+
+  .header__logo {
+    width: 254.84px;
+    height: 68.89px;
+    margin: 34px auto 0 auto;
+  }
 }
 
-.header__logo {
-  margin-top: 34px;
+@media screen and (max-width: 768px) {
+  .header {
+    display: block;
+  }
+
+  .header__logo {
+    width: 254px;
+    height: 66px;
+    margin: 30px auto 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    display: block;
+  }
+
+  .header__logo {
+    width: 188px;
+    height: 52px;
+    margin: 20px auto 0 auto;
+  }
 }

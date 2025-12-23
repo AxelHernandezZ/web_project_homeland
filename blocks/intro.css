@@ -1,76 +1,248 @@
-.intro {
-  display: block;
-  width: 830px;
-  height: 607px;
+@media screen and (min-width: 1280px) {
+  .intro {
+    display: block;
+    width: 830px;
+    height: 607px;
 
-  margin: 92px auto 0 0;
+    margin: 92px auto 0 0;
+  }
+
+  .intro__title {
+    width: 830px;
+    height: 173.92px;
+
+    opacity: 1;
+
+    color: #ffffff;
+
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 54px;
+
+    line-height: 58px;
+    letter-spacing: 0%;
+  }
+
+  .intro__poema {
+    width: 738px;
+    height: 135.66px;
+
+    opacity: 1;
+
+    color: #ffffff;
+
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+
+    line-height: 34px;
+    letter-spacing: 0%;
+
+    margin: 39.98px 0 0 0;
+  }
+
+  .intro__author {
+    width: 732px;
+    height: 33.91px;
+
+    opacity: 1;
+
+    color: #ffffff;
+
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: right;
+
+    margin-top: 10px;
+  }
+
+  .intro__description {
+    width: 722px;
+    height: 181.54px;
+
+    opacity: 1;
+
+    color: #ffffff;
+
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    letter-spacing: 0%;
+    margin-top: 31.99px;
+  }
 }
 
-.intro__title {
-  width: 830px;
-  height: 173.92px;
+@media screen and (max-width: 768px) {
+  .intro {
+    display: block;
+    width: 100%;
+    max-width: 720px;
+    height: auto;
 
-  opacity: 1;
+    margin: 90px auto 0;
+    padding: 0 16px;
+  }
 
-  color: #ffffff;
+  .intro__title {
+    width: 100%;
+    max-width: 707px;
+    height: auto;
 
-  font-family: Inter;
-  font-weight: 900;
-  font-size: 54px;
+    opacity: 1;
 
-  line-height: 58px;
-  letter-spacing: 0%;
+    color: #ffffff;
+
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 45px;
+
+    line-height: 49px;
+    letter-spacing: 0%;
+  }
+
+  .intro__poema {
+    width: 100%;
+    max-width: 720px;
+    height: auto;
+
+    opacity: 1;
+
+    color: #ffffff;
+
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+
+    line-height: 34px;
+    letter-spacing: 0%;
+
+    margin: 50px 0 0 0;
+  }
+
+  .intro__author {
+    width: 100%;
+    max-width: 720px;
+    height: auto;
+
+    opacity: 1;
+
+    color: #ffffff;
+
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: right;
+
+    margin-top: 10px;
+  }
+
+  .intro__description {
+    width: 100%;
+    max-width: 720px;
+    height: auto;
+
+    opacity: 1;
+
+    color: #ffffff;
+
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    letter-spacing: 0%;
+    margin-top: 32px;
+  }
 }
 
-.intro__poema {
-  width: 738px;
-  height: 135.66px;
+@media screen and (max-width: 320px) {
+  .intro {
+    display: block;
+    width: 100%;
+    max-width: 288px;
+    height: auto;
 
-  opacity: 1;
+    margin: 64px auto 0;
+    padding: 0 16px;
+  }
 
-  color: #ffffff;
+  .intro__title {
+    width: 100%;
+    max-width: 288px;
+    height: auto;
 
-  font-family: Inter;
-  font-weight: 400;
-  font-size: 24px;
+    opacity: 1;
 
-  line-height: 34px;
-  letter-spacing: 0%;
+    color: #ffffff;
 
-  margin: 39.98px 0 0 0;
-}
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 32px;
 
-.intro__author {
-  width: 732px;
-  height: 33.91px;
+    line-height: 35px;
+    letter-spacing: 0%;
+  }
 
-  opacity: 1;
+  .intro__poema {
+    width: 100%;
+    max-width: 288px;
+    height: auto;
 
-  color: #ffffff;
+    opacity: 1;
 
-  font-family: Inter;
-  font-weight: 400;
-  font-size: 24px;
+    color: #ffffff;
 
-  line-height: 34px;
-  letter-spacing: 0%;
-  text-align: right;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
 
-  margin-top: 10px;
-}
+    line-height: 30px;
+    letter-spacing: 0%;
 
-.intro__description {
-  width: 722px;
-  height: 181.54px;
+    margin: 40px 0 0 0;
+  }
 
-  opacity: 1;
+  .intro__author {
+    width: 100%;
+    max-width: 288px;
+    height: auto;
 
-  color: #ffffff;
+    opacity: 1;
 
-  font-family: Inter;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 163%;
-  letter-spacing: 0%;
-  margin-top: 31.99px;
+    color: #ffffff;
+
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: right;
+
+    margin-top: 10px;
+  }
+
+  .intro__description {
+    width: 100%;
+    max-width: 288px;
+    height: auto;
+
+    opacity: 1;
+
+    color: #ffffff;
+
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    letter-spacing: 0%;
+    margin-top: 32px;
+  }
 }
