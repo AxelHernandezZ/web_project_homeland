@@ -1,5 +1,6 @@
 @media screen and (min-width: 1280px) {
   .footer {
+    margin: 0;
   }
 
   .footer__copyright {
@@ -21,6 +22,7 @@
 
 @media screen and (max-width: 768px) {
   .footer {
+    margin: 0;
   }
 
   .footer__copyright {
