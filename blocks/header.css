@@ -1,4 +1,4 @@
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 769px) {
   .header {
     display: block;
   }
@@ -22,7 +22,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
   .header {
     display: block;
   }
