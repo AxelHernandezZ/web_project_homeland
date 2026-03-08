@@ -12,25 +12,25 @@
     margin: 0;
   }
 
-  .place__content_city {
+  .place__city {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto 460px auto;
   }
 
-  .place__content_Gales {
+  .place__city_Gales {
     margin: 0 0 80px 0;
   }
 
-  .place__content_EEUU {
+  .place__city_EEUU {
     margin: 0 0 80px 0;
   }
 
-  .place__content_Burundi {
+  .place__city_Burundi {
     margin: 0 0 80px 0;
   }
 
-  .place__content_Veracruz {
+  .place__city_Veracruz {
     margin: 0;
   }
 
@@ -202,24 +202,24 @@
     margin: 0;
   }
 
-  .place__content_city {
+  .place__city {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto 340px auto;
   }
-  .place__content_Gales {
+  .place__city_Gales {
     margin: 0 0 80px 0;
   }
 
-  .place__content_EEUU {
+  .place__city_EEUU {
     margin: 0 0 80px 0;
   }
 
-  .place__content_Burundi {
+  .place__city_Burundi {
     margin: 0 0 80px 0;
   }
 
-  .place__content_Veracruz {
+  .place__city_Veracruz {
     margin: 0;
   }
 
@@ -378,24 +378,24 @@
     margin: 0;
   }
 
-  .place__content_city {
+  .place__city {
     display: grid;
     grid-template-columns: 320px;
     grid-template-rows: repeat(2, auto) 320px repeat(2, auto);
   }
-  .place__content_Gales {
+  .place__city_Gales {
     margin: 0 0 50px 0;
   }
 
-  .place__content_EEUU {
+  .place__city_EEUU {
     margin: 0 0 50px 0;
   }
 
-  .place__content_Burundi {
+  .place__city_Burundi {
     margin: 0 0 50px 0;
   }
 
-  .place__content_Veracruz {
+  .place__city_Veracruz {
     margin: 0;
   }
 
